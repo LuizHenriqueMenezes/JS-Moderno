@@ -13,5 +13,6 @@ E o dobro de ${b} é ${double(b)}`)
 
 const towns = ['Prontera', 'Izlude', 'Payon', 'Alberta', 'Geffen', 'Morroc']
 
-const startingWithP = towns.filter(town => town[0] === 'P')
+const startingWithP = towns.filter(town => town[0] === 'P') 
+// vai retornar apenas as cidades que na posição 0 do nome for P
 console.log(startingWithP)
